@@ -1,0 +1,9 @@
+import math
+def calculation_foursquare(side):
+    area=side**2
+    perimetr=side*4
+    diagonal=math.sqrt(2*side**2)
+    return [area,perimetr,diagonal]
+
+p=int(input("side"))
+print(calculation_foursquare(p))
