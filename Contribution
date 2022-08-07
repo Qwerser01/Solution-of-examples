@@ -1,0 +1,7 @@
+def bank(a, years):
+    total_money=a*1.1**years
+    return total_money
+
+money=int(input("Amount of money"))
+years=int(input("Years of contribution"))
+print(bank(money, years))
